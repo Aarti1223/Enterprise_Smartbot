@@ -6,3 +6,29 @@ sentence-transformers
 python-docx
 google-generativeai
 openai
+
+# Core environment
+python-dotenv
+tqdm
+
+# Embedding & NLP
+sentence-transformers
+scikit-learn
+pandas
+pyarrow
+
+# LangChain and OpenAI
+langchain
+openai
+langchain-community
+langchain-core
+langchain-pinecone
+
+# Pinecone
+pinecone-client
+
+# Optional: for performance, but can be commented if not needed
+bottleneck
+numexpr
+
+# Database (sqlite3 is standard in Python, no need to include)
