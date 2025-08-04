@@ -1,0 +1,43 @@
+# Ignore virtual environment
+venv/
+ENV/
+env/
+
+# Ignore Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore system and editor files
+.DS_Store
+*.swp
+*.swo
+
+# Ignore environment config files
+.env
+
+# Ignore logs and debug files
+*.log
+*.tmp
+
+# Ignore database and pickle files
+*.db
+*.pkl
+
+# Ignore Jupyter notebook checkpoints (if using)
+.ipynb_checkpoints/
+
+# Ignore token usage or local flags
+token_usage_log.json
+upload_done.flag
+
+# Ignore dataset and extracted data
+*.json
+chunks.pkl
+embedded_chunks.json
+combined_data.json
+travel_records.json
+
+# Ignore VS Code settings (optional but good)
+.vscode/
