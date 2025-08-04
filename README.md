@@ -1,4 +1,4 @@
-# 🧠 Final RAG Backend with LangChain + Pinecone + HuggingFace
+# Final RAG Backend with LangChain + Pinecone + HuggingFace
 
 This is a **Retrieval-Augmented Generation (RAG)** backend that integrates:
 
@@ -10,17 +10,17 @@ This is a **Retrieval-Augmented Generation (RAG)** backend that integrates:
 
 ---
 
-## 🚀 Features
+## Features
 
-- 🔍 Embed `.docx`/text content using `all-MiniLM-L6-v2`
-- 🔗 Store & query vectorized data via Pinecone
-- 🧠 Use GPT for intelligent document Q&A
-- 🗃️ Save extracted records in SQLite and JSON
-- ✅ Supports chunking + multi-query input
+- Embed `.docx`/text content using `all-MiniLM-L6-v2`
+- Store & query vectorized data via Pinecone
+- Use GPT for intelligent document Q&A
+- Save extracted records in SQLite and JSON
+- Supports chunking + multi-query input
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```bash
 backend/
